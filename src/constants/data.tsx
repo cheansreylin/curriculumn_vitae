@@ -1,73 +1,53 @@
 import { personalData } from '@/types';
 
 const personal_curriculumn_vitae: personalData = {
-	first_name: 'Sem',
-	last_name: 'Rithiro',
+	first_name: 'Chean',
+	last_name: 'Sreylin',
 	address: 'Prey Sa, Dangkor, Phnom Penh, Cambodia.',
-	telephone: '086 577 787',
-	email: 'rithiro@gmail.com',
+	telephone: '070 944 586',
+	email: 'cheansreylin1999@gmail.com',
 	about_me:
 		'I’m a full-stack developer with over five years of experience working with Spring Boot, ReactJS, Node.js, and Python. I focus on building robust, secure, and scalable APIs, as well as real-time systems. I have a growing understanding of Spring Cloud, Kubernetes, Kafka, and microservices architecture, and I’m eager to apply these technologies more deeply in real-world projects. I’m passionate about writing clean, efficient code, driving automation, and contributing to collaborative, high-performing teams.',
 	public_link: [
-		{ name: 'GitHub', url: 'https://github.com/SemRithiro' },
 		{ name: 'Linkin', url: 'https://www.linkedin.com/in/rithirosem' },
-		{ name: 'Telegram', url: 'http://t.me/rithiro' },
+		{ name: 'Telegram', url: 'http://t.me/Lylinnnnnnnn' },
 	],
 	work_experience: [
 		{
-			company: 'Wing Bank',
-			position: 'Backend Developer',
-			duration: 'August 2025 - Present',
-			responsibility: [
-				'Building Microservices API supporting Wing Bank Mobile App',
-				'Collaborate with cross functional team to support business logic'
-			],
-		},
-		{
 			company: 'UDAYA Technology',
-			position: 'Senior R&D and Product Management',
-			duration: 'December 2023 - Present',
+			position: 'System Support Supervisor',
+			duration: '2021 - Present',
 			responsibility: [
 				'Building modern API using Spring Boot following best practices',
-				'Secure API using Keycloak, JWT, and security headers',
-				'Designing real-time project architectures',
-				'Developing automated scripts to update real-time data with Python',
-				'Mentoring development team on essential skills',
-				'Planning and coordinating MVP product development',
 			],
 		},
 		{
 			company: 'UDAYA Technology',
-			position: 'IOT Developer',
-			duration: 'April 2019 - December 2023',
+			position: 'System Support Associate',
+			duration: '2019 - 2021',
 			responsibility: [
 				'Frontend development using ReactJS',
-				'Embedded programming with Arduino and ESP',
-				'Integrating various communication protocols',
-				'Automating tasks with Python scripting',
-				'Basic PCB design and layout',
+			],
+		},
+		{
+			company: 'UDAYA Technology',
+			position: 'Accountant',
+			duration: '2018 - 2019',
+			responsibility: [
+				'Frontend development using ReactJS',
 			],
 		},
 	],
 	education: [
-		{ school: 'Royal University of Phnom Penh', degree: 'Bachelor degree of Computer Science', duration: '2014-2019' },
-		{ school: 'Chea Sim Samaki High School', degree: 'High school deploma', duration: '2011-2014' },
+		{ school: 'Preah Kossomak Polytechnic Institute', degree: 'Accounting and Finance', duration: '2018-2021' },
+		{ school: 'Somrong Punley Hight School', degree: 'High school deploma', duration: '2016-2017' },
 	],
 	training: [
 		{ school: 'Wing Bank', degree: 'Agile Scrum Training', duration: 'October-2025' },
-		{ school: 'UDAYA Technology', degree: 'Project Management (WBS Project)', duration: 'January-2025' },
-		{ school: 'UDAYA Technology', degree: 'Microservice Level 1&2', duration: 'June-2024' },
-		{ school: 'UDAYA Technology', degree: 'Database Administrator', duration: 'January-2024' },
 	],
 	technical_skills: [
-		{ name: 'Java', value: 85 },
-		{ name: 'Javascript', value: 85 },
-		{ name: 'Typescript', value: 70 },
-		{ name: 'Python', value: 70 },
-		{ name: 'GitHub', value: 75 },
-		{ name: 'Docker', value: 50 },
-		{ name: 'SQL', value: 70 },
-		{ name: 'Shell Script', value: 50 },
+		{ name: 'Microsoft Office', value: 85 },
+		{ name: 'Internet Email', value: 85 },
 	],
 	soft_skils: [
 		{ name: 'Problem solving', value: 90 },
@@ -78,9 +58,10 @@ const personal_curriculumn_vitae: personalData = {
 	languages: [
 		{ name: 'Khmer', value: 100 },
 		{ name: 'English', value: 60 },
+		{ name: 'Chinese', value: 20 },
 	],
 	references: [],
-	hobbies: ['Exploring emerging technologies', 'Continuous learning and skill development', 'Listening to music', 'Traveling and experiencing new cultures'],
+	hobbies: [],
 };
 
 export { personal_curriculumn_vitae };

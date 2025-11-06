@@ -4,7 +4,7 @@ import { useReactToPrint } from 'react-to-print';
 import { RiContactsBook3Fill } from 'react-icons/ri';
 import { TiPrinter } from 'react-icons/ti';
 
-import Profile from '../assets/imgs/profile_1.jpg';
+import Profile from '../assets/imgs/profile.jpg';
 
 import { Tooltip } from '../components/ui/tooltip';
 import { personal_curriculumn_vitae } from '../constants/data';
@@ -38,7 +38,7 @@ export default function Index() {
 
 		const a = document.createElement('a');
 		a.href = url;
-		a.download = 'Sem_Rithiro.vcf';
+		a.download = 'Chean_Sreylin.vcf';
 		a.click();
 
 		URL.revokeObjectURL(url);
