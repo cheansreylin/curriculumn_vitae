@@ -46,8 +46,8 @@ const personal_curriculumn_vitae: personalData = {
 	],
 	training: [
 		{ school: 'Cambodia Japan Cooperation Center', degree: 'Value thinking and Customer understanding, Strategic direction management and Marketing strategy', duration: 'October-2025' },
-		{ school: 'Cambodia Japan Cooperation Center', degree: 'Leadership and Hospitality Development', duration: 'June-2025' },
 		{ school: 'ACLEDA University of Business', degree: 'Excellent Customer Service & Retention', duration: 'May-2024' },
+		{ school: 'Cambodia Japan Cooperation Center', degree: 'Leadership and Hospitality Development', duration: 'June-2022' },
 	],
 	technical_skills: [
 		{ name: 'Microsoft Office', value: 70 },
@@ -60,10 +60,15 @@ const personal_curriculumn_vitae: personalData = {
 	languages: [
 		{ name: 'Khmer', value: 100 },
 		{ name: 'English', value: 60 },
+		{ name: 'Korean', value: 20 },
 		{ name: 'Chinese', value: 20 },
 	],
+	hobbies: [
+		'Reading book',
+		'Listen to music',
+		'Self-learning'
+	],
 	references: [],
-	hobbies: [],
 };
 
 export { personal_curriculumn_vitae };
