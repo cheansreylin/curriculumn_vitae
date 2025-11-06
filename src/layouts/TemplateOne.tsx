@@ -155,7 +155,7 @@ export default function TemplateOne({ personalData, printRef, profile }: any) {
 									<Timeline.Separator />
 									<Timeline.Indicator scale={0.5}></Timeline.Indicator>
 								</Timeline.Connector>
-								<Timeline.Content width='auto' gap={0} pb={'5px'}>
+								<Timeline.Content width='auto' gap={0} pb={'3px'}>
 									<Timeline.Title>{experience.position}</Timeline.Title>
 									<Timeline.Description>
 										{experience.company} | {experience.duration}
@@ -227,7 +227,7 @@ export default function TemplateOne({ personalData, printRef, profile }: any) {
 						{personalData.technical_skills.length > 0 &&
 							personalData.technical_skills.map((skill: nameValue) => (
 								<Progress.Root key={skill.name} min={0} max={100} value={skill.value} animated colorPalette='green' variant='outline' size='sm' shape='rounded'>
-									<Progress.Label>{skill.name}</Progress.Label>
+									<Progress.Label fontSize={'12px'}>{skill.name}</Progress.Label>
 									<HStack>
 										<Progress.Track flex='1'>
 											<Progress.Range />

@@ -15,6 +15,15 @@ const personal_curriculumn_vitae: personalData = {
 	],
 	work_experience: [
 		{
+			company: 'Wing Bank',
+			position: 'Backend Developer',
+			duration: 'August 2025 - Present',
+			responsibility: [
+				'Building Microservices API supporting Wing Bank Mobile App',
+				'Collaborate with cross functional team to support business logic'
+			],
+		},
+		{
 			company: 'UDAYA Technology',
 			position: 'Senior R&D and Product Management',
 			duration: 'December 2023 - Present',
@@ -45,6 +54,7 @@ const personal_curriculumn_vitae: personalData = {
 		{ school: 'Chea Sim Samaki High School', degree: 'High school deploma', duration: '2011-2014' },
 	],
 	training: [
+		{ school: 'Wing Bank', degree: 'Agile Scrum Training', duration: 'October-2025' },
 		{ school: 'UDAYA Technology', degree: 'Project Management (WBS Project)', duration: 'January-2025' },
 		{ school: 'UDAYA Technology', degree: 'Microservice Level 1&2', duration: 'June-2024' },
 		{ school: 'UDAYA Technology', degree: 'Database Administrator', duration: 'January-2024' },
@@ -54,7 +64,7 @@ const personal_curriculumn_vitae: personalData = {
 		{ name: 'Javascript', value: 85 },
 		{ name: 'Typescript', value: 70 },
 		{ name: 'Python', value: 70 },
-		{ name: 'GitHub', value: 60 },
+		{ name: 'GitHub', value: 75 },
 		{ name: 'Docker', value: 50 },
 		{ name: 'SQL', value: 70 },
 		{ name: 'Shell Script', value: 50 },
